@@ -42,4 +42,4 @@ jobs:
               --name front \
               -p 5000:5000 \
               --restart always \
-              ${{ secrets.DOCKERHUB_USERNAME }}/front:latest
+              ${{ secrets.DOCKERHUB_NAME }}/front:latest

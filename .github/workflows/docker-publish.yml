@@ -49,3 +49,9 @@ name: Desplegar en la EC2 via SSH
               --restart always \
               -e BACKEND_URL=http://${{/ secrets.BACKEND_PRIVATE_IP }}:3000 \
               ${{ secrets.DOCKERHUB_USERNAME }}/front:latest
+
+
+
+
+
+              

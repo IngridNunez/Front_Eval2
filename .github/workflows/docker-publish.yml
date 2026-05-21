@@ -43,6 +43,6 @@ jobs:
               --name front \
               -p 5000:5000 \
               --restart always \
-              -e BACKEND_URL="${{ secrets.BACKEND_HOST }}" \
+              -e BACKEND_HOST="${{ secrets.BACKEND_HOST }}" \
               ${{ secrets.DOCKERHUB_USERNAME }}/front:latest
 
